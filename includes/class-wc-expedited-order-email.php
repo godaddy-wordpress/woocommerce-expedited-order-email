@@ -159,9 +159,9 @@ class WC_Expedited_Order_Email extends WC_Email {
 				'default'     => 'html',
 				'class'       => 'email_type',
 				'options'     => array(
-					'plain'     => 'Plain text',
-					'html'      => 'HTML', 'woocommerce',
-					'multipart' => 'Multipart', 'woocommerce',
+					'plain'	    => __( 'Plain text', 'woocommerce' ),
+					'html' 	    => __( 'HTML', 'woocommerce' ),
+					'multipart' => __( 'Multipart', 'woocommerce' ),
 				)
 			)
 		);
